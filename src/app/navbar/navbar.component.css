@@ -1,0 +1,19 @@
+p strong {
+    font-weight:600;
+    color:#7F7F99;
+}
+
+#loggedInLed::before {
+    height:10px;
+    width:10px;
+    content:" ";
+    border-radius:15px;
+    background-color: lightgreen;
+    display: inline-block;
+}
+
+
+#navBarG {
+    z-index: 1000;
+    position: relative;
+}

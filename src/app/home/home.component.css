@@ -1,0 +1,36 @@
+h1 {
+    color:#000034;
+}
+
+p {
+    color:#000034;
+}
+
+#loginUl li {
+    border:0;
+    margin-bottom:2px;
+    list-style-type: none;
+}
+
+#loginUl li input{
+    border:0;
+    min-width:300px;
+}
+
+.square li {
+    border-radius: 0;
+}
+
+.big-checkbox {
+    width: 12px;
+    height:12px;
+}
+
+input[type=checkbox] {
+    float:left;
+    margin:5px 5px 0 0;
+} 
+.input-group-prepend {
+    min-width:50%;
+    text-align:left;
+}

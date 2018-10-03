@@ -1,0 +1,201 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<div id="header" class="container pt-4">
+  <h1>Platinum</h1>
+  <h2>Your personal Wlan settings</h2>
+  <p>Model: Platinum 6820</p>
+  
+</div>
+
+
+<div class="container mt-3 px-5">
+  <!-- ********** Enable radio ********** -->
+  <div class="row border-bottom mb-2">
+    <div class="mr-3 pt-2">Wifi</div>
+      <div class="pt-2">
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span> 
+            </label>
+        </div>
+      </div>
+      <div class="ml-3 pt-2"><i id="wifiIcon" class="fas fa-wifi fa-lg "></i></div>
+      <button class="btn btn-light mx-4 mb-2 px-5 border " id="WPSButton"><strong>WPS</strong></button>
+  </div>
+  <!-- ********** /Enable radio ********** -->
+
+
+  <div class="row">
+    <div class="col-lg-4 col-sm-12">
+      <div class="row mb-1">
+        <div class="col-8 m-0 p-0">
+          <label class="input-group-text d-block text-left" for="SelectCountry">Country<i class="Help fas fa-question-circle fa-lg pt-1" data-toggle="tooltip" data-placement="bottom" ngbTooltip="Fill in the country that you reside"></i></label> 
+        </div>
+        <div class="col-4 m-0 p-0 pr-1">
+          <select class="custom-select" id="SelectCountry">
+            <option value="NL">NL</option>
+            <option value="US">US</option>
+            <option value="BE">BE</option>
+            <option value="GE">GE</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-12">
+      <div class="row mb-1">
+        <div class="col-8 m-0 p-0">
+          <label class="input-group-text" for="SelectBand">Band</label> 
+        </div>
+        <div class="col-4 m-0 p-0 pr-1">
+          <select class="custom-select" id="SelectBand">
+            <option value="2.4GHz">2.4GHz</option>
+            <option value="5GHz">5GHz</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-12">
+      <div class="row mb-1">
+      <div class="col-8 m-0 p-0">
+        <label class="input-group-text" for="SelectBandwith">Bandwidth</label> 
+      </div>
+      <div class="col-4 m-0 p-0 pr-1">
+        <select class="custom-select" id="SelectBandwith">
+          <option value="20">20</option>
+          <option value="40">40</option>
+        </select>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+  
+
+
+
+  <div class="row">
+      <div class="col-lg-4 col-sm-12">
+        <div class="row mb-1">
+          <div class="col-8 m-0 p-0">
+            <label class="input-group-text" for="SelectChannel">Channel</label> 
+          </div>
+          <div class="col-4 m-0 p-0 pr-1">
+            <select class="custom-select" id="SelectChannel">
+              <option value="auto">auto</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="0">0</option>
+            </select>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-sm-12">
+        <div class="row mb-1">
+          <div class="col-8 m-0 p-0">
+            <label class="input-group-text" for="SelectMode">Mode</label> 
+          </div>
+          <div class="col-4 m-0 p-0 pr-1">
+            <select class="custom-select" id="SelectMode">
+              <option value="b">b</option>
+              <option value="g">g</option>
+              <option value="n">n</option>
+            </select>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-sm-12">
+        <div class="row mb-1">
+        <div class="col-8 m-0 p-0">
+        </div>
+        <div class="col-4 m-0 p-0 pr-1">
+         
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+<div class="container mt-3 px-5">
+  <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <div class="row mb-1">
+          <div class="col-5 m-0 p-0">
+            <label class="input-group-text" for="SelectName">Name</label> 
+          </div>
+          <div class="col-7 m-0 p-0 pr-1">
+            <input type="text" id="SelectName" class="form-control" value="Wlan1">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-12">
+        <div class="row mb-1">
+          <div class="col-5 m-0 p-0">
+            <label class="input-group-text" for="SelectSSID">SSID</label> 
+          </div>
+          <div class="col-7 m-0 p-0 pr-1">
+              <input type="text" id="SelectSSID" class="form-control" value="GNX5ABE8A">
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <div class="row mb-1">
+          <div class="col-5 m-0 p-0">
+            <label class="input-group-text" for="SelectAuthentication">Authentication</label> 
+          </div>
+          <div class="col-7 m-0 p-0 pr-1">
+            <select class="custom-select" id="SelectAuthentication">
+              <option value="wpa-wpa2">WPA-WPA2</option>
+              <option value="wpa2">WPA2</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-12">
+        <div class="row mb-1">
+          <div class="col-5 m-0 p-0">
+            <label class="input-group-text" for="SelectKey">Encryption Key</label> 
+          </div>
+          <div class="col-7 m-0 p-0 pr-1">
+              <input type="password" id="SelectKey" class="form-control" value="Y7DYQERHKA2N">
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="container mt-3 px-5">
+  <div class="row">
+    <button class="btn btn-primary mr-2">Save settings</button>
+    <button class="btn btn-secondary">Cancel</button>
+  </div>
+</div>
+
+<script>
+  var WPS = document.getElementById("WPSButton");
+  WPS.addEventListener('click', function(){
+    alert('WPS button clicked');
+  });
+</script>
