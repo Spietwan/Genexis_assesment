@@ -8,9 +8,8 @@ describe('WlansettingsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WlansettingsComponent ]
-    })
-    .compileComponents();
+      declarations: [WlansettingsComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

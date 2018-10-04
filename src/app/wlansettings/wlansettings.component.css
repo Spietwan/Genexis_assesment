@@ -1,115 +1,139 @@
-h1,h2 {
-    color:#000034;
+h1,
+h2 {
+  color: #000034;
 }
 
 h1 {
-    border-bottom: 1px dotted #000034;
-    display: inline-block;
+  border-bottom: 1px dotted #000034;
+  display: inline-block;
 }
 
 .input-group-prepend {
-    min-width:50%;
-    text-align:left;
+  min-width: 50%;
+  text-align: left;
 }
 
 .Help {
-    float:right;
-    color:#44C8F5;
+  float: right;
+  color: #44c8f5;
 }
 
 .Help:hover {
-    color:rgb(58, 164, 199);
+  color: rgb(58, 164, 199);
 }
 
 .input-group-text {
-    border-radius: 0.25em 0 0 0.25em;
-    border-right:0;
+  border-radius: 0.25em 0 0 0.25em;
+  border-right: 0;
 }
 
-.custom-select, .form-control {
-    border-radius: 0 0.25em 0.25em 0;
-    border-left: 0;
+.custom-select,
+.form-control {
+  border-radius: 0 0.25em 0.25em 0;
+  border-left: 0;
 }
 
 #wifiIcon {
-    color: rgb(194, 194, 194);
-    transition: all .4s linear;
+  color: rgb(194, 194, 194);
+  transition: all 0.4s linear;
 }
 #wifiIcon.wifiOn {
-    color: rgb(0, 255, 21);
-    border-radius: 50%;
+  color: rgb(0, 255, 21);
+  border-radius: 50%;
 }
 /*********************************************************/
 .onoffswitch {
-    position: relative; width: 63px;
-    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+  position: relative;
+  width: 63px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .onoffswitch-checkbox {
-    display: none;
+  display: none;
 }
 .onoffswitch-label {
-    display: block; overflow: hidden; cursor: pointer;
-    border: 1px solid #F0E7E7; border-radius: 2px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #f0e7e7;
+  border-radius: 2px;
 }
 .onoffswitch-inner {
-    display: block; width: 200%; margin-left: -100%;
-    transition: margin 0.3s ease-in 0s;
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
 }
-.onoffswitch-inner:before, .onoffswitch-inner:after {
-    display: block; float: left; width: 50%; height: 24px; padding: 0; line-height: 24px;
-    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
-    box-sizing: border-box;
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 24px;
+  padding: 0;
+  line-height: 24px;
+  font-size: 12px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
 }
 .onoffswitch-inner:before {
-    content: "ON";
-    padding-left: 10px;
-    background-color: #44C8F5; color: #FFFFFF;
+  content: "ON";
+  padding-left: 10px;
+  background-color: #44c8f5;
+  color: #ffffff;
 }
 .onoffswitch-inner:after {
-    content: "OFF";
-    padding-right: 10px;
-    background-color: #EEEEEE; color: #999999;
-    text-align: right;
+  content: "OFF";
+  padding-right: 10px;
+  background-color: #eeeeee;
+  color: #999999;
+  text-align: right;
 }
 .onoffswitch-switch {
-    display: block; width: 12px; height:12px; margin: 8px;
-    background: #FFFFFF;
-    position: absolute; top: 0; bottom: 0;
-    right: 35px;
-    border: 1px solid #F0E7E7; border-radius: 2px;
-    transition: all 0.3s ease-in 0s; 
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 8px;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 35px;
+  border: 1px solid #f0e7e7;
+  border-radius: 2px;
+  transition: all 0.3s ease-in 0s;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-    margin-left: 0;
+  margin-left: 0;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
+  right: 0px;
 }
 
 .input-group-text {
-    background-color: rgb(187, 238, 255)!important;
+  background-color: rgb(187, 238, 255) !important;
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    
- }
+@media (min-width: 576px) {
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    #header {
-        background:url('../../assets/img/platinum.jpg') bottom right no-repeat;
-        min-height:250px;
-        position: relative;
-    }
- }
+@media (min-width: 768px) {
+  #header {
+    background: url("../../assets/img/platinum.jpg") bottom right no-repeat;
+    min-height: 250px;
+    position: relative;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    
- }
+@media (min-width: 992px) {
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    
- }
+@media (min-width: 1200px) {
+}

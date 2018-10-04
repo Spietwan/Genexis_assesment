@@ -11,10 +11,11 @@
     font-weight: 100;
 }
 
-* {
+h1, h2, h3 {
     font-family: 'Segoe UI Light', sans-serif;
     font-weight: 100;
 }
+
 
 p strong {
     font-weight:600;

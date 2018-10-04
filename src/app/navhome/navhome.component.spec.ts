@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NotfoundComponent } from './notfound.component';
+import { NavhomeComponent } from './navhome.component';
 
-describe('NotfoundComponent', () => {
-  let component: NotfoundComponent;
-  let fixture: ComponentFixture<NotfoundComponent>;
+describe('NavhomeComponent', () => {
+  let component: NavhomeComponent;
+  let fixture: ComponentFixture<NavhomeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [NotfoundComponent]
+      declarations: [NavhomeComponent]
     }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NotfoundComponent);
+    fixture = TestBed.createComponent(NavhomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

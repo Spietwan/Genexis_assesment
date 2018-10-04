@@ -8,11 +8,15 @@ p strong {
   width: 10px;
   content: " ";
   border-radius: 15px;
-  background-color: lightgreen;
+  background-color: darkred;
   display: inline-block;
 }
 
 #navBarG {
   z-index: 1000;
   position: relative;
+}
+
+#logoutButton {
+  visibility: hidden;
 }
